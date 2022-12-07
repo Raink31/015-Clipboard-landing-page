@@ -74,12 +74,14 @@ header button{
     padding: 1rem 5rem;
     border-radius: 30px;
     border: none;
+    max-height: 5rem;
+    height: 100%;
+    color: white;
+    font-size: 1.1em;
 }
 
 header a{
-    color: white;
     text-decoration: none;
-    font-size: 1.5em;
 }
 
 .header-buttons{
@@ -192,12 +194,14 @@ section p {
     border-top: none;
     border-left: none;
     border-right: none;
+    max-height: 5rem;
+    height: 100%;
+    color: white;
+    font-size: 1.1em;
 }
 
 .bottom-downloads a {
-    color: white;
     text-decoration: none;
-    font-size: 1.5em;
 }
 
 /* Footer */
@@ -257,6 +261,7 @@ footer a:hover{
 
 .attribution{
     font-size: 0.6em;
+    margin-bottom: 1rem;
 }
 
 .attribution a{
@@ -328,6 +333,7 @@ footer a:hover{
         padding: 1rem 2.5rem;
         border-radius: 30px;
         border: none;
+        font-size: 0.7em;
     }
 
     header a {
@@ -429,6 +435,7 @@ footer a:hover{
     .bottom-downloads button {
         padding: 1rem 2.5rem;
         border-radius: 30px;
+        font-size: 0.7em;
     }
 
     .bottom-downloads a{
@@ -447,7 +454,7 @@ footer a:hover{
     }
 
     .footer-content{
-        max-width: 1200px;
+        max-width: 1440px;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -461,9 +468,12 @@ footer a:hover{
 
     footer ul{
         display: flex;
+        flex-direction: column;
         text-align: left;
-        align-items: flex-start;
-        margin-bottom: 2rem;
+        flex-wrap: wrap;
+        height: 110px;
+        max-width: 600px;
+        width: 100%;
     }
 
     .left, .middle, .right{
