@@ -70,18 +70,11 @@ header p{
     margin-bottom: 3rem;
 }
 
-header button{
-    padding: 1rem 5rem;
-    border-radius: 30px;
-    border: none;
-    max-height: 5rem;
-    height: 100%;
-    color: white;
-    font-size: 1.1em;
-}
-
 header a{
     text-decoration: none;
+    color: white;
+    padding: 0.8rem 4rem;
+    border-radius: 50px;
 }
 
 .header-buttons{
@@ -188,20 +181,11 @@ section p {
     margin-top: 6rem;
 }
 
-.bottom-downloads button {
-    padding: 1rem 5rem;
-    border-radius: 30px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    max-height: 5rem;
-    height: 100%;
-    color: white;
-    font-size: 1.1em;
-}
-
 .bottom-downloads a {
     text-decoration: none;
+    color: white;
+    padding: 0.8rem 4rem;
+    border-radius: 50px;
 }
 
 /* Footer */
@@ -323,23 +307,17 @@ footer a:hover{
         align-items: center;
         max-height: max-content;
         height: 100%;
-        max-width: 480px;
+        max-width: 600px;
         width: 100%;
         margin-bottom: 8rem;
         margin-top: 3rem;
     }
 
-    header button {
-        padding: 1rem 2.5rem;
-        border-radius: 30px;
-        border: none;
-        font-size: 0.7em;
-    }
-
     header a {
         color: white;
         text-decoration: none;
-        font-size: 1.4em;
+        font-size: 1em;
+        padding: 1rem 3rem;
     }
 
     /* Sections */
@@ -432,14 +410,11 @@ footer a:hover{
         width: 13%;
     }
 
-    .bottom-downloads button {
-        padding: 1rem 2.5rem;
-        border-radius: 30px;
-        font-size: 0.7em;
-    }
-
     .bottom-downloads a{
-        font-size: 1.4em;
+        color: white;
+        text-decoration: none;
+        font-size: 1em;
+        padding: 1rem 3rem;
     }
 
     .bottom-downloads p{
